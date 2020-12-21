@@ -6,17 +6,20 @@ import Home from './Components/Home';
 import Login from './Components/Login/Login';
 
 import './App.css';
+import { UserStorage } from './UseContext';
 
 function App() {
   return (
     <div>
       <BrowserRouter>
-        <Header />
-        <Switch>
-          <Route path="/" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-        </Switch>
-        <Footer />
+        <UserStorage>
+          <Header />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/login" component={Login} />
+          </Switch>
+          <Footer />
+        </UserStorage>
       </BrowserRouter>
     </div>
   );
