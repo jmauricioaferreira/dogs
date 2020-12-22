@@ -1,19 +1,23 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import LoginForm from './LoginForm';
-import LoginCreate from './LoginCreate';
-import LoginPasswordLost from './LoginPasswordLost';
-import LoginPasswordReset from './LoginPasswordReset';
+import React from "react";
+import { Routes, Route, Navigate } from "react-router-dom";
+import LoginForm from "./LoginForm";
+import LoginCreate from "./LoginCreate";
+import LoginPasswordLost from "./LoginPasswordLost";
+import LoginPasswordReset from "./LoginPasswordReset";
+import { UserContext } from "../../UseContext";
 
 const Login = () => {
+  const { login } = React.useContext(UserContext);
+
+  if (login === true) return <Navigate to="/conta" />;
   return (
     <div>
-      <Switch>
-        <Route exact path="/login" component={LoginForm} />
-        <Route path="*/criar" component={LoginCreate} />
-        <Route path="/perdeu" component={LoginPasswordLost} />
-        <Route path="/resetar" component={LoginPasswordReset} />
-      </Switch>
+      <Routes>
+        <Route path="/" element={<LoginForm />} />
+        <Route path="criar" element={<LoginCreate />} />
+        <Route path="perdeu" element={<LoginPasswordLost />} />
+        <Route path="resetar" element={<LoginPasswordReset />} />
+      </Routes>
     </div>
   );
 };

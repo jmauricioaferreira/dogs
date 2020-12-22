@@ -1,14 +1,14 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import useForm from '../../Hooks/useForm';
-import Button from '../Forms/Button';
-import Input from '../Forms/Input';
-import { UserContext } from '../../UseContext';
+import React from "react";
+import { Link } from "react-router-dom";
+import useForm from "../../Hooks/useForm";
+import Button from "../Forms/Button";
+import Input from "../Forms/Input";
+import { UserContext } from "../../UseContext";
 
 const LoginForm = () => {
   const username = useForm();
   const password = useForm();
-  const { userLogin, data } = React.useContext(UserContext);
+  const { userLogin, error, loading } = React.useContext(UserContext);
 
   async function handleSubmit(event) {
     event.preventDefault();
@@ -36,7 +36,13 @@ const LoginForm = () => {
           autoComplete="current-password"
           {...password}
         />
-        <Button>Entrar</Button>
+        {loading ? (
+          <Button disabled>Carregando...</Button>
+        ) : (
+          <Button>Entrar</Button>
+        )}
+
+        {error && <p>{error}</p>}
       </form>
       <Link to="/login/criar">Cadastro</Link>
     </section>
