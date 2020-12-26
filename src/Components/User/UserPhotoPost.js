@@ -39,6 +39,7 @@ const UserPhotoPost = () => {
       raw: target.files[0],
     });
   }
+
   return (
     <section className={`${styles.photoPost} animeLeft`}>
       <form onSubmit={handleSubmit}>
