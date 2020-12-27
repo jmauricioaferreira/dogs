@@ -2,9 +2,11 @@
   overflow-y: auto;
   word-break: break-all;
 }
+.single.comments {
+  padding: 0px;
+}
 
 .comments li {
   margin-bottom: 0.5rem;
-  margin-left: 0.875rem;
   line-height: 1.2rem;
 }
