@@ -2,4 +2,4 @@
 #### Top libraries: React, react-router-dom and Victory.
 
 #### Login Page
-![Login](src/Assets/capture-login.jpeg 'Login')
+![Login](src/Assets/capture-login.JPG 'Login')
