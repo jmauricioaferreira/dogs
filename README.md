@@ -2,11 +2,11 @@
 #### Top libraries: React, react-router-dom and Victory.
 #### I'm open to receive feedbacks!
 
- #### Login ↴
+ #### - Login ↴
 ![Login](src/Assets/capture-login.JPG 'Login')
 
- #### Feed ↴
+ #### - Feed ↴
 ![Feed](src/Assets/capture-feed.JPG 'Feed')
 
- #### Modal Photo ↴
-![Login](src/Assets/capture-modal-photo.JPG 'Login')
+ #### - Modal Photo ↴
+![Modal](src/Assets/capture-modal-photo.JPG 'Modal')
