@@ -1,12 +1,14 @@
 .comments {
   overflow-y: auto;
   word-break: break-all;
+  font-family: var(--type-first), Arial, Helvetica, sans-serif;
 }
 .single.comments {
   padding: 0px;
 }
 
 .comments li {
+  margin-left: 1rem;
   margin-bottom: 0.5rem;
   line-height: 1.2rem;
 }

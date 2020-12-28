@@ -20,7 +20,7 @@ const PhotoComments = (props) => {
       >
         {comments.map((comment) => (
           <li key={comment.comment_ID}>
-            <b>{comment.comment_author}:</b>
+            <b>{comment.comment_author}: </b>
             <span>{comment.comment_content}</span>
           </li>
         ))}

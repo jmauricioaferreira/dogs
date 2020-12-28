@@ -3,6 +3,7 @@
   grid-template-columns: 1fr auto;
   align-items: stretch;
   margin: 1rem;
+  font-family: "Roboto";
 }
 
 .single.form {
