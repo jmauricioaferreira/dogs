@@ -1,5 +1,5 @@
 ## This repository shows a React project developed from the training offered by Origamid.com. 
-#### Top libraries: React, react-router-dom and Victory.
+#### Libraries: React, react-router-dom and Victory.
 #### I'm open to receive feedbacks!
 
 ## Getting Started
@@ -16,7 +16,7 @@ $ cd dogs
 <h3>Installing dependencies</h3>
 
 ```
-$ yarn add react-scripts
+$ yarn add 
 ```
 
 ```
