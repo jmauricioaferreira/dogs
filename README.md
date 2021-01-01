@@ -2,27 +2,7 @@
 #### Libraries: React, react-router-dom and Victory
 #### I'm open to receive feedbacks!
 
-## Getting Started
-
-<h3>Clonning the Repository</h3>
-
-```
-$ git clone https://github.com/jmauricioaferreira/dogs.git
-```
-```
-$ cd dogs
-```
-
-<h3>Installing dependencies</h3>
-
-```
-$ yarn add 
-```
-
-```
-$ yarn start
-```
-
+### You can check this out by clicking here: https://jm-dogs.herokuapp.com/login
 
  #### - Login ↴
 ![Login](src/Assets/capture-login.JPG 'Login')
