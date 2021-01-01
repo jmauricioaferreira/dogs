@@ -2,15 +2,6 @@
 #### Top libraries: React, react-router-dom and Victory.
 #### I'm open to receive feedbacks!
 
- #### - Login ↴
-![Login](src/Assets/capture-login.JPG 'Login')
-
- #### - Feed ↴
-![Feed](src/Assets/capture-feed.JPG 'Feed')
-
- #### - Modal Photo ↴
-![Modal](src/Assets/capture-modal-photo.JPG 'Modal')
-
 ## Getting Started
 
 <h3>Clonning the Repository</h3>
@@ -31,6 +22,17 @@ $ yarn add react-scripts
 ```
 $ yarn start
 ```
+
+
+ #### - Login ↴
+![Login](src/Assets/capture-login.JPG 'Login')
+
+ #### - Feed ↴
+![Feed](src/Assets/capture-feed.JPG 'Feed')
+
+ #### - Modal Photo ↴
+![Modal](src/Assets/capture-modal-photo.JPG 'Modal')
+
 
 
 
