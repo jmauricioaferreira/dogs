@@ -1,5 +1,5 @@
-## This repository shows a React project developed from the training offered by Origamid.com. 
-#### Libraries: React, react-router-dom and Victory.
+## This repository shows a React project developed from the training offered by Origamid.com
+#### Libraries: React, react-router-dom and Victory
 #### I'm open to receive feedbacks!
 
 ## Getting Started
